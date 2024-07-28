@@ -1,0 +1,90 @@
+body {
+  background-image: url("Logos/background.png");
+  opacity: 80%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.cusineBox {
+  
+}
+
+#tabs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+.tab{
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 20px;
+  height: 155px;
+  max-width:200px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  border-color: #E6AA68;
+}
+
+.tab:hover{
+  background-color: #606c38;
+  color: #fefae0;
+}
+
+.tab:not(last-child) {
+  margin-right:10px;
+}
+
+#recipesContainer {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.recipeItem {
+  background-color:#E6AA68;
+  padding:10px;
+  border-radius: 15px;
+  margin-top: 20px;
+  
+
+}
+
+.recipeItem h3 {
+  margin-top:0;
+}
+
+.recipeItem img {
+  max-width:200px;
+  /* height:200px; */
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+  margin-top: 10px auto 0;
+}
+
+.recipeItemContent {
+  padding:10px;
+  text-align:center;
+}
+
+.nameRecipe{
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  display:flex;
+  justify-content: center;
+  background-color: #E29779;
+  border: solid 2px;
+  border-radius: 6px;
+  padding: 15px;
+}
+.tabImage {
+  margin-left: 20px;
+  border-radius: 15px;
+}
+

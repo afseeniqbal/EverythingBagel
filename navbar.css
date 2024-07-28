@@ -1,0 +1,59 @@
+.navBar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2px;
+  overflow: hidden;
+  background-color: #02020B;
+  border-radius: 10px;
+  justify-content: space-evenly;
+}
+ 
+.ulBar {
+  display: flex;
+}
+
+li {
+  float: left;
+}
+
+.logo {
+  display: block;
+  color: #ECE4B7;
+  text-align: center;
+  /* padding: 16px; */
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a {
+  justify-content: space-evenly;
+  display: block;
+  color: #ECE4B7;
+  text-align: center;
+  padding: 5px;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  align-items: flex-end;
+}
+
+li a:hover {
+  background-color: #e29779;
+  border: 3px solid #e29779; 
+  font-family: 'Hammersmith One', sans-serif;
+  border-radius: 15px; 
+}
+
+/* .homeMain, .helpMain, .eduMain, .resourcesMain, .teamMain, .urgentMain {
+  background-color: #5c424c;
+  border: 3px solid #5c424c; 
+  border-radius: 15px; 
+  color: #8d6574;
+} */

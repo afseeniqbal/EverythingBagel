@@ -1,0 +1,51 @@
+body {
+  background-image: url("Logos/background.png");
+  opacity: 80%;
+  font-family: 'Raleway', sans-serif;
+}
+
+li a {
+  justify-content: space-evenly;
+  display: block;
+  color: #ECE4B7;
+  text-align: center;
+  padding: 5px;
+font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  align-items: flex-end;
+}
+
+li a:hover {
+  background-color: #e29779;
+  border: 3px solid #e29779; 
+  font-family: 'Raleway', sans-serif;
+  border-radius: 15px; 
+ 
+}
+
+.intro {
+ font-family: 'Raleway', sans-serif;
+  color: #02020B;
+  padding: 10px;
+  font-size: larger;
+  background-color: #7FB069;
+  border: #7FB069; 
+  opacity:90%;
+  border-radius: 20px;
+  line-height: 20 pt;
+}
+
+.links {
+  font-family: 'Raleway', sans-serif;
+  color: #02020B;
+  padding: 10px;
+  background-color: #ECE4B7; 
+  border: #ECE4B7; 
+  opacity: 90%;
+  border-radius: 20px;
+  line-height: 20 pt;
+  display: flex; 
+  flex-direction: column; 
+  gap: 1em; 
+}

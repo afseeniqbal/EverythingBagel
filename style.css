@@ -1,0 +1,109 @@
+body {
+  background: url('Logos/background.png'); 
+  opacity: 80%;
+  height: 100%;
+  width: 100%;
+  margin: 0; 
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.topBox {
+  background-color: #7fb069;
+  height: 60%; 
+  width: 100%; 
+}
+
+.line {
+  background-color: black; 
+  border: 2px line black; 
+}
+
+.dyk-header {
+  padding-left: 80px;
+  font-size: 50px;
+  margin-bottom: 8px;
+  letter-spacing: .2rem;
+}
+
+.DYK {
+  display: flex; 
+  padding: 3em; 
+}
+
+.embedVideo {
+  border-radius: 30px;
+}
+.fdaVideo {
+  overflow: hidden;
+  border-radius: 30px;
+  margin: 20px;
+  margin-top: -15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.HWWTH {
+  display: flex;
+font-family: 'Raleway', sans-serif;
+    letter-spacing: .5rem;
+
+  justify-content: center;
+  font-size: normal;
+  background-color: #ECE4B7;
+  margin-top: -1px;
+}
+
+.HWWTHInfo{
+  margin: 20px;
+font-family: 'Raleway', sans-serif;
+  background-color: #ECE4B7; opacity:70%;
+  border-radius: 10px;
+    letter-spacing: .1rem;
+  line-height: 20pt;
+  color: 
+}
+
+.HWWTHImages {
+  margin: 10px;
+  display: flexbox;
+  border-radius: 20px;
+  align-items: center; 
+  padding: 30px;
+}
+
+
+.didYouKnowInfo {
+  font-size: 15px;
+  margin: 30 px;
+font-family: 'Raleway', sans-serif;
+  padding: 5px;
+  line-height: 20pt;
+}
+
+.siteInfo {
+  background: #E29779;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+.footerContent {
+  text-align: center;
+}
+
+.KWKP {
+  font-size: x-small;
+  
+}
+
+.HWWTHSection {
+  text-align: center;
+}
+
+.helpImages{
+  border-radius: 20px;
+  margin: 40px;
+  border: 5px solid black;
+  padding: 5px;
+}

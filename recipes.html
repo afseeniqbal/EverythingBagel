@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<div class="whole">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="navbar.css" rel="stylesheet" type="text/css" />
+  <link href="recipes.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  
+  <!-- NAV BAR -->
+ <nav class="navBar" id="myHeader">
+    <ul class="ulBar">
+      <div>
+        <li class="logo">
+        </li>
+      </div>
+     <li class="homeMain"> <a href="index.html"> <u><strong>Everything Bagel</strong></u> </a></li>
+      <li class="donate"> <a href="donate.html"> <u> <strong> Where to Donate</strong> </u></a></li>
+      <li class="recipes"> <a href="recipes.html">  <u><strong> Recipes  </strong></u></a></li>
+      <li class="creators"> <a href="creators.html">  <u><strong>Meet the Creators</strong>! </u> </a></li>
+    </ul>
+  </nav>
+  
+    <!-- RECIPES  -->
+ <div class = "cusineBox" id="tabs">
+    <button class="tab" onclick="filterRecipes('all')">All</button>
+    <button class="tab" onclick="filterRecipes('cuisine1')">Italian</button>
+    <button class="tab" onclick="filterRecipes('cuisine2')">Mexican</button>
+    <button class="tab" onclick="filterRecipes('cuisine3')">Korean</button>
+
+  </div>
+
+  <div id="recipesContainer"> 
+  </div> 
+  
+    
+
+  
+  <script src="recipes.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+</div>
+</html>
